@@ -1,0 +1,8 @@
+do download 'bvlc_googlenet.caffemodel' otherwise you will get error 
+
+Note:
+here we are using  googlenet models which is completely fine for local host but if you use for heroku u can't upload it on github because its too much heavy 
+
+Working:
+basically image choosing work same as previous we have created but for image capturing capture the image from javascript save it on download folder and than read it from python and give prediction of those image. Although its not a good approach we have also another folder in this directory named as "python-javascript communication" which is capturing the image in javascript and than send to python and python firstly save it and than predict its class and in this the issue i faced is that firstly i can't predict the label due to label can't fetch data in javascript and also can't visualize the image
+ 
